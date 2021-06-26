@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+
+header > div {
+    background-color: rgb(73, 73, 73);
+    padding: 40px;
+}
+
+header > div > h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+header > div > h1::first-letter {
+    color: gold;
+}
+
+header > div > h1 > span {
+    color:gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    padding: 10px;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > a.navbar-brand:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > div.collapse.navbar-collapse > ul.navbar-nav > li.nav-item.dropdown > a.nav-link.dropdown-toggle:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > div.collapse.navbar-collapse > ul.navbar-nav > li.nav-item.dropdown > ul.dropdown-menu.dropdown-menu-dark > li > a:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > div.collapse.navbar-collapse > div.menu > a {
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > div.collapse.navbar-collapse > div.menu > a:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark >div.d-flex > button.btn.btn-outline-warning {
+    transition-duration: 0.5s;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Kurale', serif;
+    scroll-behavior: smooth;
+}

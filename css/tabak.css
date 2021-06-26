@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+
+header > div {
+    background-color: rgb(73, 73, 73);
+    padding: 40px;
+}
+
+header > div > h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+header > div > h1::first-letter {
+    color: gold;
+}
+
+header > div > h1 > span {
+    color:gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    padding: 10px;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > a.navbar-brand:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > div.collapse.navbar-collapse > ul.navbar-nav > li.nav-item.dropdown > a.nav-link.dropdown-toggle:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > div.collapse.navbar-collapse > ul.navbar-nav > li.nav-item.dropdown > ul.dropdown-menu.dropdown-menu-dark > li > a:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > div.collapse.navbar-collapse > div.menu > a {
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark > div.container-fluid > div.collapse.navbar-collapse > div.menu > a:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark >div.d-flex > button.btn.btn-outline-warning {
+    transition-duration: 0.5s;
+}
+
+main > h2 {
+    padding: 10px;
+}
+
+main > span {
+    font-size: 20px;
+    padding: 10px;
+}
+
+main > section > div {
+    transition-duration: 0.5s;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}   
+
+main > section > div:hover {
+    outline: 2px solid rgb(160, 160, 160);
+}
+
+
+
+main > section > div > img {
+    width: 40%;
+}
+
+main > section > div > a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main > section > div > a:hover {
+    color: gold;
+    transition-duration: 0.5s;
+}
+
+@media (min-width: 480px) {
+    main > section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media (min-width: 660px) {
+    main > section {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 980px) {
+    main > section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Kurale', serif;
+    scroll-behavior: smooth;
+}
