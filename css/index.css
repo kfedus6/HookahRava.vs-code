@@ -57,6 +57,7 @@ header > nav.navbar.navbar-expand-lg.navbar-dark.bg-dark >div.d-flex > button.bt
 }
 
 main > h2 {
+    font-size: 35px;
     font-weight: bold;
     border-bottom: 1px solid;
 }
@@ -73,14 +74,19 @@ main > div.owl-carousel.owl-theme {
 main > div.owl-carousel.owl-theme > div.item {
     border-radius: 20px;
     box-sizing: border-box;
-    box-shadow: 0 1.5em 2em -1em rgb(180, 180, 180);
+    box-shadow: 0 1.5em 2em -1em rgb(151, 150, 150);
     padding: 15px;
     margin-bottom: 10px;
+    margin-left: 15px;
 }
 
 main > div.owl-carousel.owl-theme > div.item:hover {
     transform: scale(1.02);
     transition: all ease 0.3s;
+}
+
+main > div.owl-carousel.owl-theme > div.item > img {
+    width: 230px;
 }
 
 main > div.owl-carousel.owl-theme > div.item > a {
@@ -109,8 +115,215 @@ main > div.owl-carousel.owl-theme > div.item > div.price > span.price-new {
 }
 
 main > div.owl-carousel.owl-theme > div.item > button.btn.btn-danger {
-    margin-left: 30px;
-    margin-bottom: 22px;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+
+main > section.new-products {
+    padding-top: 100px;
+}
+
+main > section.new-products > h3 {
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+main > section.new-products > div.owl-carousel.owl-theme {
+    display: flex;
+}
+
+main > section.new-products > div.owl-carousel.owl-theme > div.item {
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 1.5em 2em -1em rgb(151, 150, 150);
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+main > section.new-products > div.owl-carousel.owl-theme > div.item:hover {
+    transform: scale(1.02);
+    transition: all ease 0.3s;
+}
+
+main > section.new-products > div.owl-carousel.owl-theme > div.item > img {
+    width: 230px;
+}
+
+main > section.new-products > div.owl-carousel.owl-theme > div.item > a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main > section.new-products > div.owl-carousel.owl-theme > div.item > a:hover {
+    color: red;
+}
+
+
+main > section.new-products > div.owl-carousel.owl-theme > div.item > div.price {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+main > section.new-products > div.owl-carousel.owl-theme > div.item > button.btn.btn-danger {
+    margin-left: 110px;
+    margin-top: -45px;
+}
+
+main > section.popular-products {
+    padding-top: 100px;
+}
+
+main > section.popular-products > h4 {
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+main > section.popular-products > div.owl-carousel.owl-theme {
+    display: flex;
+}
+
+main > section.popular-products > div.owl-carousel.owl-theme > div.item {
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 1.5em 2em -1em rgb(151, 150, 150);
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+main > section.popular-products > div.owl-carousel.owl-theme > div.item:hover {
+    transform: scale(1.02);
+    transition: all ease 0.3s;
+}
+
+main > section.popular-products > div.owl-carousel.owl-theme > div.item > img {
+    width: 230px;
+}
+
+main > section.popular-products > div.owl-carousel.owl-theme > div.item > a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main > section.popular-products > div.owl-carousel.owl-theme > div.item > a:hover {
+    color: red;
+}
+
+
+main > section.popular-products > div.owl-carousel.owl-theme > div.item > div.price {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+main > section.popular-products > div.owl-carousel.owl-theme > div.item > button.btn.btn-danger {
+    margin-left: 110px;
+    margin-top: -45px;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+footer > div.container > p {
+    padding-bottom: 20px;
+}
+
+footer > div.container {
+    padding-right: 15px;
+}
+
+footer > div.container > h5 {
+    text-align: center;
+    font-size: 30px;
+}
+
+footer > div.container > div.promotextborder {
+    padding: 15px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+footer > div.container > div.promotextborder > h6 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer > div.container > div.promotextborder > p > span {
+    font-weight: bold;
+}
+
+
+footer > div.info-footer {
+    background-color: black;
+}
+
+footer > div.info-footer > div.footer-menu {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+
+footer > div.info-footer > div.footer-menu > a {
+    color: white;
+    text-decoration: none;
+    margin: 40px;
+}
+
+footer > div.info-footer > div.footer-menu > a:hover {
+    color: red;
+}
+
+footer > div.info-footer > div.social {
+    margin-bottom: 60px;
+}
+
+footer > div.info-footer > div.social > ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+footer > div.info-footer > div.social > ul > li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+footer > div.info-footer > div.social > ul > li .fab {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: white;
+}
+
+footer > div.info-footer > div.container {
+    text-align: center;
+}
+
+footer > div.info-footer > div.container > a {
+    text-align: center;
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+}
+
+footer > div.info-footer > div.container > a:hover {
+    color: red;
+}
+
+footer > div.info-footer > div.container > p {
+    color: rgb(199, 199, 199);
+    text-align: center;
 }
 
 
